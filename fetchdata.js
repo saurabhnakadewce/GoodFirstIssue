@@ -1,7 +1,7 @@
 // module.exports = { onSubmitButton, sum  };
 // https://www.flightlist.io/
 
-
+// trial
 var searchIssuesQuery  = `
 query SearchIssues($query:String!, $after: String) {
   search(query:$query, type:ISSUE, first: 50, after: $after) {
